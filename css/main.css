@@ -13,7 +13,6 @@ body{
   color: #F8F8F8;
   line-height: 1.6;
   letter-spacing: 1.5px;
-  overflow-x: hidden;
   transition: background-color 1s ;
 }
 body.light{
@@ -24,6 +23,7 @@ header{
   height: 100vh;
   overflow: hidden;
 }
+
 nav.navbar{
   padding: 0;
 }
@@ -247,6 +247,10 @@ header .about-icon svg:hover{
   color: var(--main-color);
 }
 /* projects */
+.current-projects,
+.projects{
+  overflow: hidden;
+}
 .projects .main-title h2{ 
   border-color: var(--main-color);
 }
