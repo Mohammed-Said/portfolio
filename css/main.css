@@ -302,14 +302,14 @@ text-transform: uppercase;
 .contact .back-to-top:hover{
   transform: scale(1.2);
 }
-.proj div{
+.proj> div{
   transition: transform 3s , opacity 2s;
 }
-.proj div:first-child{
+.proj >div:first-child{
   opacity: 0;
   transform:translateX(-200px) scale(.6)
 }
-.proj div:last-child{
+.proj> div:last-child{
   opacity: 0;
   transform:translateX(200px) scale(.6)
 }
