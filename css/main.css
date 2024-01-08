@@ -22,6 +22,7 @@ body.light{
 }
 header{
   height: 100vh;
+  overflow: hidden;
 }
 nav.navbar{
   padding: 0;
