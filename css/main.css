@@ -223,6 +223,7 @@ header .about-icon svg:hover{
 /* about me */
 .about-me{
   padding: 100px 0;
+  overflow: hidden;
   transition: 1s;
 }
 .about-me svg{
